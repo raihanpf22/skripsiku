@@ -20,6 +20,9 @@
     <!-- Custom styles for this template-->
     <link href="../sb-admin2/css/sb-admin-2.min.css" rel="stylesheet">
 
+    <!-- Custom styles for this page -->
+    <link href="../sb-admin2/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+
 </head>
 
 <body id="page-top">
@@ -43,7 +46,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="{{ route('dashboard') }}">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
@@ -66,11 +69,13 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Tahap Preprocessing:</h6>
-                        <a class="collapse-item" href="buttons.html">Data Cleaning</a>
-                        <a class="collapse-item" href="cards.html">Casefolding</a>
-                        <a class="collapse-item" href="cards.html">Tokenizing</a>
-                        <a class="collapse-item" href="cards.html">Normalization</a>
-                        <a class="collapse-item" href="cards.html">Stemming</a>
+                        <a class="collapse-item" href="{{ route('dataclean_ketam') }}">Data Cleaning</a>
+                        <a class="collapse-item" href="{{ route('casefolding_ketam') }}">Casefolding</a>
+                        <a class="collapse-item" href="{{ route('tokenizing_ketam') }}">Tokenizing</a>
+                        <a class="collapse-item" href="{{ route('filtering_ketam') }}">Filtering</a>
+                        <a class="collapse-item" href="{{ route('normalize_ketam') }}">Normalization</a>
+                        <a class="collapse-item" href="{{ route('stemming_ketam') }}">Stemming</a>
+
                     </div>
                 </div>
             </li>
@@ -85,11 +90,12 @@
                 <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Tahap Preprocessing:</h6>
-                        <a class="collapse-item" href="buttons.html">Data Cleaning</a>
-                        <a class="collapse-item" href="cards.html">Casefolding</a>
-                        <a class="collapse-item" href="cards.html">Tokenizing</a>
-                        <a class="collapse-item" href="cards.html">Normalization</a>
-                        <a class="collapse-item" href="cards.html">Stemming</a>
+                        <a class="collapse-item" href="{{ route('dataclean_getas') }}">Data Cleaning</a>
+                        <a class="collapse-item" href="{{ route('casefolding_getas') }}">Casefolding</a>
+                        <a class="collapse-item" href="{{ route('tokenizing_getas') }}">Tokenizing</a>
+                        <a class="collapse-item" href="{{ route('filtering_getas') }}">Filtering</a>
+                        <a class="collapse-item" href="{{ route('normalize_getas') }}">Normalization</a>
+                        <a class="collapse-item" href="{{ route('stemming_getas') }}">Stemming</a>
                     </div>
                 </div>
             </li>
@@ -104,11 +110,12 @@
                 <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Tahap Preprocessing:</h6>
-                        <a class="collapse-item" href="buttons.html">Data Cleaning</a>
-                        <a class="collapse-item" href="cards.html">Casefolding</a>
-                        <a class="collapse-item" href="cards.html">Tokenizing</a>
-                        <a class="collapse-item" href="cards.html">Normalization</a>
-                        <a class="collapse-item" href="cards.html">Stemming</a>
+                        <a class="collapse-item" href="{{ route('dataclean_kricu') }}">Data Cleaning</a>
+                        <a class="collapse-item" href="{{ route('casefolding_kricu') }}">Casefolding</a>
+                        <a class="collapse-item" href="{{ route('tokenizing_kricu') }}">Tokenizing</a>
+                        <a class="collapse-item" href="{{ route('filtering_kricu') }}">Filtering</a>
+                        <a class="collapse-item" href="{{ route('normalize_kricu') }}">Normalization</a>
+                        <a class="collapse-item" href="{{ route('stemming_kricu') }}">Stemming</a>
                     </div>
                 </div>
             </li>
@@ -123,11 +130,12 @@
                 <div id="collapseFive" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Tahap Preprocessing:</h6>
-                        <a class="collapse-item" href="buttons.html">Data Cleaning</a>
-                        <a class="collapse-item" href="cards.html">Casefolding</a>
-                        <a class="collapse-item" href="cards.html">Tokenizing</a>
-                        <a class="collapse-item" href="cards.html">Normalization</a>
-                        <a class="collapse-item" href="cards.html">Stemming</a>
+                        <a class="collapse-item" href="{{ route('dataclean_otak2') }}">Data Cleaning</a>
+                        <a class="collapse-item" href="{{ route('casefolding_otak2') }}">Casefolding</a>
+                        <a class="collapse-item" href="{{ route('tokenizing_otak2') }}">Tokenizing</a>
+                        <a class="collapse-item" href="{{ route('filtering_otak2') }}">Filtering</a>
+                        <a class="collapse-item" href="{{ route('normalize_otak2') }}">Normalization</a>
+                        <a class="collapse-item" href="{{ route('stemming_otak2') }}">Stemming</a>
                     </div>
                 </div>
             </li>
@@ -379,6 +387,13 @@
     <!-- Page level custom scripts -->
     <script src="../sb-admin2/js/demo/chart-area-demo.js"></script>
     <script src="../sb-admin2/js/demo/chart-pie-demo.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="../sb-admin2/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="../sb-admin2/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="../sb-admin2/js/demo/datatables-demo.js"></script>
 
 </body>
 
