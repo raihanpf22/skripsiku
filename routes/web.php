@@ -64,3 +64,9 @@ Route::get('/akurasi_ketam', function () { return view('akurasi.ketam'); })->nam
 Route::get('/akurasi_getas', function () { return view('akurasi.getas'); })->name('akurasi_getas');
 Route::get('/akurasi_kricu', function () { return view('akurasi.kricu'); })->name('akurasi_kricu');
 Route::get('/akurasi_otak2', function () { return view('akurasi.otak2'); })->name('akurasi_otak2');
+
+// Pie Chart
+Route::get('/chart_ketam', function () { return view('chart.ketam'); })->name('chart_ketam');
+Route::get('/chart_getas', function () { return view('chart.getas'); })->name('chart_getas');
+Route::get('/chart_kricu', function () { return view('chart.kricu'); })->name('chart_kricu');
+Route::get('/chart_otak2', function () { return view('chart.otak2'); })->name('chart_otak2');
