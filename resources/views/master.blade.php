@@ -185,10 +185,10 @@
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Hasil Akurasi:</h6>
-                        <a class="collapse-item" href="#">Akurasi Data Ketam</a>
-                        <a class="collapse-item" href="#">Akurasi Data Getas</a>
-                        <a class="collapse-item" href="#">Akurasi Data Kricu</a>
-                        <a class="collapse-item" href="#">Akurasi Data Otak-otak</a>
+                        <a class="collapse-item" href="{{ route('akurasi_ketam') }}">Akurasi Data Ketam</a>
+                        <a class="collapse-item" href="{{ route('akurasi_getas') }}">Akurasi Data Getas</a>
+                        <a class="collapse-item" href="{{ route('akurasi_kricu') }}">Akurasi Data Kricu</a>
+                        <a class="collapse-item" href="{{ route('akurasi_otak2') }}">Akurasi Data Otak-otak</a>
                     </div>
                 </div>
             </li>

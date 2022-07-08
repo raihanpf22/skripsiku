@@ -58,3 +58,9 @@ Route::get('/labeling_ketam', [KetamController::class, 'labeling_ketam'])->name(
 Route::get('/labeling_getas', [GetasController::class, 'labeling_getas'])->name('labeling_getas');
 Route::get('/labeling_kricu', [KricuController::class, 'labeling_kricu'])->name('labeling_kricu');
 Route::get('/labeling_otak2', [Otak2Controller::class, 'labeling_otak2'])->name('labeling_otak2');
+
+// Akurasi
+Route::get('/akurasi_ketam', function () { return view('akurasi.ketam'); })->name('akurasi_ketam');
+Route::get('/akurasi_getas', function () { return view('akurasi.getas'); })->name('akurasi_getas');
+Route::get('/akurasi_kricu', function () { return view('akurasi.kricu'); })->name('akurasi_kricu');
+Route::get('/akurasi_otak2', function () { return view('akurasi.otak2'); })->name('akurasi_otak2');
