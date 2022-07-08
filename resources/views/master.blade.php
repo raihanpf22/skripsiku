@@ -213,7 +213,7 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Jenis Visualisasi:</h6>
                         <a class="collapse-item" href="{{ route('chart_ketam') }}">Diagram Lingkaran</a>
-                        <a class="collapse-item" href="#">Confusion Matrix</a>
+                        <a class="collapse-item" href="{{ route('cfm_ketam') }}">Confusion Matrix</a>
                         <a class="collapse-item" href="cards.html">Word Cloud</a>
                     </div>
                 </div>
@@ -230,7 +230,7 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Jenis Visualisasi:</h6>
                         <a class="collapse-item" href="{{ route('chart_getas') }}">Diagram Lingkaran</a>
-                        <a class="collapse-item" href="cards.html">Confusion Matrix</a>
+                        <a class="collapse-item" href="{{ route('cfm_getas') }}">Confusion Matrix</a>
                         <a class="collapse-item" href="cards.html">Word Cloud</a>
                     </div>
                 </div>
@@ -247,7 +247,7 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Jenis Visualisasi:</h6>
                         <a class="collapse-item" href="{{ route('chart_kricu') }}">Diagram Lingkaran</a>
-                        <a class="collapse-item" href="cards.html">Confusion Matrix</a>
+                        <a class="collapse-item" href="{{ route('cfm_kricu')}}">Confusion Matrix</a>
                         <a class="collapse-item" href="cards.html">Word Cloud</a>
                     </div>
                 </div>
@@ -263,7 +263,7 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Jenis Visualisasi:</h6>
                         <a class="collapse-item" href="{{ route('chart_otak2') }}">Diagram Lingkaran</a>
-                        <a class="collapse-item" href="cards.html">Confusion Matrix</a>
+                        <a class="collapse-item" href="{{ route('cfm_otak2')}}">Confusion Matrix</a>
                         <a class="collapse-item" href="cards.html">Word Cloud</a>
                     </div>
                 </div>

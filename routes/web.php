@@ -70,3 +70,9 @@ Route::get('/chart_ketam', function () { return view('chart.ketam'); })->name('c
 Route::get('/chart_getas', function () { return view('chart.getas'); })->name('chart_getas');
 Route::get('/chart_kricu', function () { return view('chart.kricu'); })->name('chart_kricu');
 Route::get('/chart_otak2', function () { return view('chart.otak2'); })->name('chart_otak2');
+
+// CFM
+Route::get('/cfm_ketam', function () { return view('cfm.ketam'); })->name('cfm_ketam');
+Route::get('/cfm_getas', function () { return view('cfm.getas'); })->name('cfm_getas');
+Route::get('/cfm_kricu', function () { return view('cfm.kricu'); })->name('cfm_kricu');
+Route::get('/cfm_otak2', function () { return view('cfm.otak2'); })->name('cfm_otak2');
