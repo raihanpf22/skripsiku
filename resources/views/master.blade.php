@@ -214,7 +214,7 @@
                         <h6 class="collapse-header">Jenis Visualisasi:</h6>
                         <a class="collapse-item" href="{{ route('chart_ketam') }}">Diagram Lingkaran</a>
                         <a class="collapse-item" href="{{ route('cfm_ketam') }}">Confusion Matrix</a>
-                        <a class="collapse-item" href="cards.html">Word Cloud</a>
+                        <a class="collapse-item" href="{{ route('wc_ketam') }}">Word Cloud</a>
                     </div>
                 </div>
             </li>
@@ -231,7 +231,7 @@
                         <h6 class="collapse-header">Jenis Visualisasi:</h6>
                         <a class="collapse-item" href="{{ route('chart_getas') }}">Diagram Lingkaran</a>
                         <a class="collapse-item" href="{{ route('cfm_getas') }}">Confusion Matrix</a>
-                        <a class="collapse-item" href="cards.html">Word Cloud</a>
+                        <a class="collapse-item" href="{{ route('wc_getas') }}">Word Cloud</a>
                     </div>
                 </div>
             </li>
@@ -248,7 +248,7 @@
                         <h6 class="collapse-header">Jenis Visualisasi:</h6>
                         <a class="collapse-item" href="{{ route('chart_kricu') }}">Diagram Lingkaran</a>
                         <a class="collapse-item" href="{{ route('cfm_kricu')}}">Confusion Matrix</a>
-                        <a class="collapse-item" href="cards.html">Word Cloud</a>
+                        <a class="collapse-item" href="{{ route('wc_kricu') }}">Word Cloud</a>
                     </div>
                 </div>
             </li>
@@ -264,7 +264,7 @@
                         <h6 class="collapse-header">Jenis Visualisasi:</h6>
                         <a class="collapse-item" href="{{ route('chart_otak2') }}">Diagram Lingkaran</a>
                         <a class="collapse-item" href="{{ route('cfm_otak2')}}">Confusion Matrix</a>
-                        <a class="collapse-item" href="cards.html">Word Cloud</a>
+                        <a class="collapse-item" href="{{ route('wc_otak2') }}">Word Cloud</a>
                     </div>
                 </div>
             </li>

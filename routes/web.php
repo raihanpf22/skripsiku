@@ -76,3 +76,9 @@ Route::get('/cfm_ketam', function () { return view('cfm.ketam'); })->name('cfm_k
 Route::get('/cfm_getas', function () { return view('cfm.getas'); })->name('cfm_getas');
 Route::get('/cfm_kricu', function () { return view('cfm.kricu'); })->name('cfm_kricu');
 Route::get('/cfm_otak2', function () { return view('cfm.otak2'); })->name('cfm_otak2');
+
+// WC
+Route::get('/wc_ketam', function () { return view('wc.ketam'); })->name('wc_ketam');
+Route::get('/wc_getas', function () { return view('wc.getas'); })->name('wc_getas');
+Route::get('/wc_kricu', function () { return view('wc.kricu'); })->name('wc_kricu');
+Route::get('/wc_otak2', function () { return view('wc.otak2'); })->name('wc_otak2');
