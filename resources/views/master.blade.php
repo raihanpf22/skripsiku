@@ -159,10 +159,10 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Labelling :</h6>
-                        <a class="collapse-item" href="utilities-color.html">Labelling Ketam</a>
-                        <a class="collapse-item" href="utilities-border.html">Labelling Getas</a>
-                        <a class="collapse-item" href="utilities-animation.html">Labelling Kricu</a>
-                        <a class="collapse-item" href="utilities-other.html">Labelling Otak-otak</a>
+                        <a class="collapse-item" href="{{ route('labeling_ketam') }}">Labelling Ketam</a>
+                        <a class="collapse-item" href="{{ route('labeling_getas') }}">Labelling Getas</a>
+                        <a class="collapse-item" href="{{ route('labeling_kricu') }}">Labelling Kricu</a>
+                        <a class="collapse-item" href="{{ route('labeling_otak2') }}">Labelling Otak-otak</a>
                     </div>
                 </div>
             </li>

@@ -52,3 +52,9 @@ Route::get('/tokenizing_otak2', [Otak2Controller::class, 'tokenizing_otak2'])->n
 Route::get('/filtering_otak2', [Otak2Controller::class, 'filtering_otak2'])->name('filtering_otak2');
 Route::get('/normalize_otak2', [Otak2Controller::class, 'normalize_otak2'])->name('normalize_otak2');
 Route::get('/stemming_otak2', [Otak2Controller::class, 'stemming_otak2'])->name('stemming_otak2');
+
+// Labeling
+Route::get('/labeling_ketam', [KetamController::class, 'labeling_ketam'])->name('labeling_ketam');
+Route::get('/labeling_getas', [GetasController::class, 'labeling_getas'])->name('labeling_getas');
+Route::get('/labeling_kricu', [KricuController::class, 'labeling_kricu'])->name('labeling_kricu');
+Route::get('/labeling_otak2', [Otak2Controller::class, 'labeling_otak2'])->name('labeling_otak2');

@@ -50,5 +50,12 @@ class Otak2Controller extends Controller
         return view('otak2.stemming', ['datas'=>$data]);
     }
 
+    public function labeling_otak2()
+    {
+        $data = Otak2::all();
+
+        return view('labeling.labeling_otak2', ['datas'=>$data]);
+    }
+
 
 }
