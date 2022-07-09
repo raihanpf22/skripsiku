@@ -82,3 +82,9 @@ Route::get('/wc_ketam', function () { return view('wc.ketam'); })->name('wc_keta
 Route::get('/wc_getas', function () { return view('wc.getas'); })->name('wc_getas');
 Route::get('/wc_kricu', function () { return view('wc.kricu'); })->name('wc_kricu');
 Route::get('/wc_otak2', function () { return view('wc.otak2'); })->name('wc_otak2');
+
+// Hasil Analisis
+Route::get('/analisis_ketam', [KetamController::class, 'analisis_ketam'])->name('analisis_ketam');
+Route::get('/analisis_getas', [GetasController::class, 'analisis_getas'])->name('analisis_getas');
+Route::get('/analisis_kricu', [KricuController::class, 'analisis_kricu'])->name('analisis_kricu');
+Route::get('/analisis_otak2', [Otak2Controller::class, 'analisis_otak2'])->name('analisis_otak2');

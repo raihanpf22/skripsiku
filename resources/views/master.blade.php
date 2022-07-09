@@ -269,6 +269,32 @@
                 </div>
             </li>
 
+             <!-- Divider -->
+             <hr class="sidebar-divider">
+
+             <!-- Heading -->
+             <div class="sidebar-heading">
+                 Hasil Analisis
+             </div>
+ 
+             <!-- Nav Item - Pages Collapse Menu -->
+             <li class="nav-item">
+                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages23"
+                     aria-expanded="true" aria-controls="collapsePages">
+                     <i class="fas fa-fw fa-folder"></i>
+                     <span>Hasil Analisis Sentimen</span>
+                 </a>
+                 <div id="collapsePages23" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                     <div class="bg-white py-2 collapse-inner rounded">
+                         <h6 class="collapse-header">Hasil Akurasi:</h6>
+                         <a class="collapse-item" href="{{ route('analisis_ketam') }}">Hasil Analisis Ketam</a>
+                         <a class="collapse-item" href="{{ route('analisis_getas') }}">Hasil Analisis Getas</a>
+                         <a class="collapse-item" href="{{ route('analisis_kricu') }}">Hasil Analisis Kricu</a>
+                         <a class="collapse-item" href="{{ route('analisis_otak2') }}">Hasil Analisis Otak-otak</a>
+                     </div>
+                 </div>
+             </li>
+
             
 
         </ul>

@@ -57,4 +57,11 @@ class KetamController extends Controller
         return view('labeling.labeling_ketam', ['datas'=>$data]);
     }
 
+    public function analisis_ketam()
+    {
+        $data = Ketam::all();
+
+        return view('hasil.analisis_ketam', ['datas'=>$data]);
+    }
+
 }

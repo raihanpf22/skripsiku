@@ -57,4 +57,12 @@ class GetasController extends Controller
         return view('labeling.labeling_getas', ['datas'=>$data]);
     }
 
+    public function analisis_getas()
+    {
+        
+        $data = Getas::all();
+
+        return view('hasil.analisis_getas', ['datas'=>$data]);
+    }
+
 }

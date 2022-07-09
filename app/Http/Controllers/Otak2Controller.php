@@ -57,5 +57,12 @@ class Otak2Controller extends Controller
         return view('labeling.labeling_otak2', ['datas'=>$data]);
     }
 
+    public function analisis_otak2()
+    {
+        $data = Otak2::all();
+
+        return view('hasil.analisis_otak2', ['datas'=>$data]);
+    }
+
 
 }

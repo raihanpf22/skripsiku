@@ -57,5 +57,11 @@ class KricuController extends Controller
         return view('labeling.labeling_kricu', ['datas'=>$data]);
     }
 
+    public function analisis_kricu()
+    {
+        $data = Kricu::all();
+
+        return view('hasil.analisis_kricu', ['datas'=>$data]);
+    }
 
 }
