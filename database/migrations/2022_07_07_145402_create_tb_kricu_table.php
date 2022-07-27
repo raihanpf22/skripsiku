@@ -24,6 +24,7 @@ class CreateTbKricuTable extends Migration
             $table->string('filtering');
             $table->string('normalisasi');
             $table->string('stemming');
+            $table->string('prediksi');
         });
     }
 
